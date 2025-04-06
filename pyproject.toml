@@ -1,0 +1,12 @@
+[project]
+name = "algorithmic"
+version = "0.1.0"
+description = "Data-driven algorithmic investment framework"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.11.16",
+    "httpx>=0.28.1",
+    "lxml>=5.3.2",
+    "pydantic>=2.11.2",
+]
